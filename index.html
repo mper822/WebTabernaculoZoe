@@ -95,16 +95,24 @@ img{ max-width:100%;}
       margin-top: 1.5rem !important;
     }
 
+    .footer_col_res{
+      width: 33%;
+    }
+
 }
 
 @media screen and (max-width: 575px)  {
   
-.intro h3{
-  font-size: 19px;
-}
-.navbar-toggler {
-     padding: .25rem 1.75rem;
-}
+  .intro h3{
+    font-size: 19px;
+  }
+  .navbar-toggler {
+      padding: .25rem 1.75rem;
+  }
+
+  .footer_col_res{
+      width: 100%;
+    }
 
 }
 
@@ -239,7 +247,15 @@ line-height: 20px;
 
 
 
-  
+.hrb {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    border-top: 1px solid rgb(53, 55, 61);
+}
 
   </style>
 
@@ -414,7 +430,7 @@ line-height: 20px;
 
         <div class="section" style="background-color:#F0F0F0">
           <div class="container">  
-            <h2 class="cardh2 online center">Features</h2>
+          <!--   <h2 class="cardh2 online center">Features</h2> -->
 <!--           <p class="cardsp center">You want to connect at VOUS — We want to make it easy for you!</p>
  -->
             <ul class="gallery_box">
@@ -541,7 +557,7 @@ line-height: 20px;
 
 
         <div class="row">
-             <div class="col-md-2 mt-footer">
+             <div class="col-md-2 mt-footer footer_col_res">
               <h5 class="heading-52 header_footer">Secciones</h5>
               <a href="/livestream" class="link-2">Sermones</a>
               <a href="/livestream" class="link-2">Transmisión</a>
@@ -549,7 +565,7 @@ line-height: 20px;
               <a href="/livestream" class="link-2">Registrate</a>
             </div>
 
-            <div class="col-md-2 mt-footer">
+            <div class="col-md-2 mt-footer footer_col_res">
               <h5 class="heading-52 header_footer">Recursos</h5>
               <a href="/livestream" class="link-2">Fotos</a>
               <a href="/livestream" class="link-2">Diseños</a>
@@ -557,7 +573,7 @@ line-height: 20px;
               <a href="/livestream" class="link-2">Poemas</a>
             </div>
             
-            <div class="col-md-2 mt-footer">
+            <div class="col-md-2 mt-footer footer_col_res">
               <h5 class="heading-52 header_footer">Más</h5>
               <a href="/livestream" class="link-2">Libros</a>
               <a href="/livestream" class="link-2">Himnarios</a>
@@ -625,8 +641,9 @@ line-height: 20px;
           <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
           <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
         </div> -->
+        <hr class="hrb">
 
-        <div class="row justify-content-md-center mt-5">
+        <div class="row justify-content-md-cente">
           <div class="text-center col-md-12 col-lg-12">
             <!-- <h3 class="description" style="color:#e2e2e2;line-height: 1.8;">Para cualquier consulta o pregunta por favor escribir al siguiente | Email: <span>administracion@tabernaculozoe.org</span> Teléfono: +51 961083192 | Dirección: Av. Prolongación Bolognesi S/N, Chiclayo, PerúTabernáculo Zoe 2017 - Derechos Reservados</h5> -->
               <div class="copyright" id="copyright" style="color:#828282">
