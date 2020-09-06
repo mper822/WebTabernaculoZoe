@@ -86,18 +86,37 @@ img{ max-width:100%;}
       height: auto;
     }
 
+    .footer, .footer a{
+      text-align: center;
+      
+    }
+
+    .mt-footer {
+      margin-top: 1.5rem !important;
+    }
 
 }
 
 @media screen and (max-width: 575px)  {
   
 .intro h3{
-  font-size: 18px;
+  font-size: 19px;
+}
+.navbar-toggler {
+     padding: .25rem 1.75rem;
 }
 
 }
 
-
+.header_footer{
+  margin-bottom: 15px;
+color: #ededed;
+font-weight: 700;
+text-transform: none;
+font-family: Raleway, sans-serif;
+font-size: 15px;
+line-height: 20px;
+}
 
 
 /* Style Gallery*/
@@ -200,11 +219,16 @@ img{ max-width:100%;}
     display: block;
     margin-bottom: 5px;
     opacity: 0.49;
-    font-family: Raleway, sans-serif;
-    color: #fff;
-    font-size: 15px;
+    /* font-family: Raleway, sans-serif; */
+    color: #fff;;
     text-align: left;
     text-decoration: none;
+    font-size: 13px;
+}
+
+.footer .copyright {
+  text-align: center;
+  float:initial;
 }
 
 #social > a {
@@ -212,6 +236,11 @@ img{ max-width:100%;}
     font-size: 18px;
     padding: 0 10px;
 }
+
+
+
+  
+
   </style>
 
 
@@ -489,7 +518,7 @@ img{ max-width:100%;}
     <!--  End Modal -->
     <footer class="footer" style="background-color: #242424;color:white">
       
-      <div class=" container ">
+      <div class="container ">
         
         <!-- <div class="row justify-content-md-center sharing-area text-center" style="padding: 0 0 24px 0px;margin: 0;">
           
@@ -512,30 +541,31 @@ img{ max-width:100%;}
 
 
         <div class="row">
-             <div class="col-md-2">
-              <h5 class="heading-52">Tabernazulo Zoe</h5>
+             <div class="col-md-2 mt-footer">
+              <h5 class="heading-52 header_footer">Secciones</h5>
               <a href="/livestream" class="link-2">Sermones</a>
               <a href="/livestream" class="link-2">Transmisión</a>
               <a href="/livestream" class="link-2">Alabanzas</a>
               <a href="/livestream" class="link-2">Registrate</a>
             </div>
 
-            <div class="col-md-2">
-              <h5 class="heading-52">Recursos</h5>
+            <div class="col-md-2 mt-footer">
+              <h5 class="heading-52 header_footer">Recursos</h5>
               <a href="/livestream" class="link-2">Fotos</a>
               <a href="/livestream" class="link-2">Diseños</a>
               <a href="/livestream" class="link-2">Niños</a>
               <a href="/livestream" class="link-2">Poemas</a>
             </div>
             
-            <div class="col-md-2">
-              <h5 class="heading-52">Más</h5>
+            <div class="col-md-2 mt-footer">
+              <h5 class="heading-52 header_footer">Más</h5>
               <a href="/livestream" class="link-2">Libros</a>
               <a href="/livestream" class="link-2">Himnarios</a>
               <a href="/livestream" class="link-2">Cancioneros</a>
               <a href="/livestream" class="link-2">Dove</a>
             </div> 
-            <div class="col-md-4">
+
+            <div class="col-md-6 mt-footer">
               <h5 class="heading-52">Siguenos</h5>
 
                 <div id="social">
@@ -596,7 +626,7 @@ img{ max-width:100%;}
           <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
         </div> -->
 
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center mt-5">
           <div class="text-center col-md-12 col-lg-12">
             <!-- <h3 class="description" style="color:#e2e2e2;line-height: 1.8;">Para cualquier consulta o pregunta por favor escribir al siguiente | Email: <span>administracion@tabernaculozoe.org</span> Teléfono: +51 961083192 | Dirección: Av. Prolongación Bolognesi S/N, Chiclayo, PerúTabernáculo Zoe 2017 - Derechos Reservados</h5> -->
               <div class="copyright" id="copyright" style="color:#828282">
@@ -604,8 +634,8 @@ img{ max-width:100%;}
                 <script>
                   document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
                 </script>, Designed by
-                <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                <a href="https://www.invisionapp.com" target="_blank">Media</a>. Coded by
+                <a href="https://www.creative-tim.com" target="_blank">Dev Zoe</a>.
               </div> 
             </div>
          
